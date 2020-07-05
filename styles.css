@@ -1,0 +1,8 @@
+body {
+    background-color: black;
+}
+
+.logo img {
+    margin: 30vh auto;
+    display: block;
+}
