@@ -1,10 +1,57 @@
+html {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
 body {
-    background-color: black;
+    background-color: #111111;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
 }
 
 h1,
 p {
     color: white;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    float: left;
+    margin-right: 20px;
+}
+
+nav {
+    background-color: #000000;
+    opacity: 0.5;
+    position: relative;
+    z-index: 200;
+}
+
+nav ul {
+    padding: 20px 30px 35px;
+}
+
+nav ul a {
+    opacity: 0.5;
+}
+
+nav ul a:hover {
+    opacity: 1;
+}
+
+.wrapper {
+    padding: 30px;
 }
 
 .logo {
@@ -30,4 +77,5 @@ p {
     width: 100vw;
     height: 100vh;
     z-index: 10;
+    object-fit: cover;
 }
