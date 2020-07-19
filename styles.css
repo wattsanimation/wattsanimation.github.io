@@ -2,6 +2,11 @@ body {
     background-color: black;
 }
 
+h1,
+p {
+    color: white;
+}
+
 .logo {
     position: absolute;
     z-index: 100;
@@ -11,6 +16,7 @@ body {
     top: 0;
     left: 0;
 }
+
 .logo img {
     margin: 30vh auto;
     display: block;
