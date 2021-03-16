@@ -15,6 +15,10 @@ ul {
     margin: 0;
 }
 
+hr {
+    margin: 50px 0px;
+}
+
 nav {
     background-color: #000000;
     opacity: 0.5;
@@ -23,8 +27,10 @@ nav {
 }
 
 nav ul {
+    margin: 0px auto;
     list-style: none;
     padding: 20px 30px 35px;
+    max-width: 980px;
 }
 nav ul li {
     float: left;
@@ -50,11 +56,15 @@ nav ul a:hover {
 }
 
 .left-list {
-    padding: 20px
+    padding: 20px;
+    width: 15%;
+    float: left;
 }
 
 .right-list {
-    padding: 20px
+    padding: 20px;
+    width: 15%;
+    float: left;
 }
 
 .logo {
@@ -81,4 +91,8 @@ nav ul a:hover {
     height: 100vh;
     z-index: 10;
     object-fit: cover;
+}
+
+.about {
+    width: 50%;
 }
