@@ -11,12 +11,12 @@ a {
 }
 
 .gallery-image {
-  padding: 20px;
+  padding: 0px 33px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 55 auto;
 }
 
 .gallery-image img {
