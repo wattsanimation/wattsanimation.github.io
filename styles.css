@@ -22,9 +22,8 @@ hr {
 nav {
     background-color: #000000;
     opacity: 0.8;
-    position: fixed;
+    position: sticky;
     z-index: 200;
-    width: -moz-available;
     top: 0px;
 }
 
