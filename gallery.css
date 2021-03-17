@@ -15,6 +15,8 @@ a {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .gallery-image img {
@@ -76,4 +78,7 @@ a {
 
 .opacity-low {
   opacity: 0.5;
+  height: 20px;
+  margin: -15px;
+  padding: 0px 15px;
 }
