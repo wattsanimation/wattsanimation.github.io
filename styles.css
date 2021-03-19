@@ -94,6 +94,20 @@ nav ul a:hover {
     object-fit: cover;
 }
 
+#TDlogo {
+    padding: 0px 33px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 980px;
+    margin: 55 auto;
+    width:86vw;
+}
+
 .about {
     width: 50%;
+}
+
+.tddescribe {
+    width: 80%;
 }
