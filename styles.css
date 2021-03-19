@@ -110,4 +110,6 @@ nav ul a:hover {
 
 .tddescribe {
     width: 80%;
+    position: relative;
+    top: -55px;
 }
