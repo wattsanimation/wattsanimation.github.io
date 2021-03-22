@@ -95,7 +95,6 @@ nav ul a:hover {
 }
 
 #TDlogo {
-    padding: 0px 33px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -112,4 +111,22 @@ nav ul a:hover {
     position: relative;
     top: -55px;
     text-align: center;
+}
+
+.tdbg {
+    display: block;
+    position: relative;
+    width: 50vw;
+    z-index: -10;
+    object-fit: cover;
+    max-width: 980px;
+    margin: 0px auto;
+}
+
+.tdcontainer {
+    margin: 55px auto;
+    max-width: 980px;
+    position:relative;
+    top: -375;
+    padding-top: 175px;
 }
