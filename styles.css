@@ -111,6 +111,7 @@ nav ul a:hover {
     position: relative;
     top: -55px;
     text-align: center;
+    padding: 0px 66px;
 }
 
 .tdbg {
