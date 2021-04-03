@@ -58,13 +58,13 @@ nav ul a:hover {
 }
 
 .left-list {
-    padding: 20px;
+    padding: 0px 20px;
     width: 15%;
     float: left;
 }
 
 .right-list {
-    padding: 20px;
+    padding: 0px 20px;
     width: 15%;
     float: left;
 }
@@ -109,7 +109,7 @@ nav ul a:hover {
 }
 
 .aboutwebsite {
-    
+    width: 50%;
 }
 
 .portrait {
