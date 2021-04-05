@@ -47,6 +47,23 @@ nav ul a:hover {
     opacity: 1;
 }
 
+.nav-item {
+    position: relative;
+    cursor: pointer;
+}
+
+.nav-item :hover > ul {
+    display: block;
+}
+
+.sub-nav {
+    background-color: #000000;
+    opacity: 0.8;
+    position: sticky;
+    z-index: 200;
+    top: 0px;
+}
+
 .wrapper {
     padding: 30px;
 }
