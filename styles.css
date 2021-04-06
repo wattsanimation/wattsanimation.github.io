@@ -1,5 +1,5 @@
 body {
-    background-color: #111111;
+    background-color: rgb(23, 23, 23);
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     color: white
@@ -8,160 +8,184 @@ body {
 a {
     color: white;
     text-decoration: none;
-}
+  }
 
 ul {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
+}
+  
+hr {
+  margin-right: 30px;
+  max-width: 470px;
 }
 
-hr {
-    margin-right: 30px;
-    max-width: 470px;
+h4.italic {
+  font-style: italic;
 }
 
 nav {
-    background-color: #000000;
-    opacity: 0.8;
-    position: sticky;
-    z-index: 200;
-    top: 0px;
+  background-color: #000000;
+  opacity: 0.8;
+  position: sticky;
+  z-index: 200;
+  top: 0px;
 }
 
 nav ul {
-    margin: 0px auto;
-    list-style: none;
-    padding: 20px 30px 35px;
-    max-width: 980px;
-}
+  margin: 0px auto;
+  list-style: none;
+  padding: 20px 30px 35px;
+  max-width: 980px;
+  }
 
 nav ul li {
-    float: left;
-    margin-right: 20px;
+  float: left;
+  margin-right: 20px;
 }
 
 nav ul a {
-    opacity: 0.5;
+  opacity: 0.5;
 }
 
 nav ul a:hover {
-    opacity: 1;
+  opacity: 1;
 }
 
-.sub-nav {
-    position: relative;
-    z-index: 200;
-    top: -38px;
-}
+li {
+  color: #fff;
+  display: block;
+  /* float: left; */
+  position: relative;
+  text-decoration: none;
+  /* transition-duration: 0.5s; */
+  padding: 0px 0px 17px;
+  }
 
-.sub-nav li {
-    display: none;
+li a {
+color: #fff;
 }
-.sub-nav:hover li {
-    display: block;
+  
+li:hover {
+  cursor: pointer;
 }
-
-.nav-item {
-    position: relative;
-    top: 35px;
-    background-color: black;
-    opacity: 0.8;
-    padding: 15px;
-    left: -47px;
+  
+ul li ul {
+  background: black;
+  visibility: hidden;
+  opacity: 0;
+  min-width: 30rem;
+  position: absolute;
+  /* transition: all 0.5s ease; */
+  margin-top: 1rem;
+  left: 0;
+  display: none;
+  padding: 15px 15px 0px;
+  }
+  
+ul li:hover > ul,
+ul li ul:hover {
+  visibility: visible;
+  opacity: 1;
+  display: flex;
+  }
+  
+ul li ul li {
+  clear: both;
 }
 
 .wrapper {
-    padding: 30px;
+  padding: 30px;
 }
 
 .container {
-    margin: 55px auto;
-    max-width: 980px;
-    padding: 10px 30px;
+  margin: 55px auto;
+  max-width: 980px;
+  padding: 10px 30px;
 }
 
 .left-list {
-    padding: 0px 20px;
-    width: 15%;
-    float: left;
+  padding: 0px 20px;
+  width: 15%;
+  float: left;
 }
 
 .right-list {
-    padding: 0px 20px;
-    width: 15%;
-    float: left;
+  padding: 0px 20px;
+  width: 15%;
+  float: left;
 }
 
 .logo {
-    position: absolute;
-    z-index: 100;
-    background-color: rgba(0, 0, 0, 0.5);
-    width: 100vw;
-    height: 100vh;
-    top: 0;
-    left: 0;
+  position: absolute;
+  z-index: 100;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
 }
 
 .logo img {
-    margin: 30vh auto;
-    display: block;
+  margin: 30vh auto;
+  display: block;
 }
 
 #videoBG {
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    z-index: 10;
-    object-fit: cover;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 10;
+  object-fit: cover;
 }
 
 #TDlogo {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    max-width: 980px;
-    margin: 55 auto;
-    width:86vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 980px;
+  margin: 55 auto;
+  width:86vw;
 }
 
 .about {
-    width: 50%;
+  width: 50%;
 }
 
 .aboutwebsite {
-    width: 50%;
+  width: 50%;
 }
 
 .portrait {
-    max-width: 470px;
-    float: right;
-    padding: 20px;
-    max-height: 660px;
+  max-width: 470px;
+  float: right;
+  padding: 20px;
+  max-height: 660px;
 }
 .tddescribe {
-    position: relative;
-    top: -55px;
-    text-align: center;
-    padding: 0px 66px;
+  position: relative;
+  top: -55px;
+  text-align: center;
+  padding: 0px 66px;
 }
 
 .tdbg {
-    display: block;
-    position: relative;
-    width: 50vw;
-    z-index: -10;
-    object-fit: cover;
-    max-width: 980px;
-    margin: 0px auto;
+  display: block;
+  position: relative;
+  width: 50vw;
+  z-index: -10;
+  object-fit: cover;
+  max-width: 980px;
+  margin: 0px auto;
 }
 
 .tdcontainer {
-    margin: 55px auto;
-    max-width: 980px;
-    position:relative;
-    top: -375;
-    padding-top: 175px;
+  margin: 55px auto;
+  max-width: 980px;
+  position:relative;
+  top: -375;
+  padding-top: 175px;
 }

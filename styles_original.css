@@ -1,0 +1,168 @@
+body {
+    background-color: #111111;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    color: white
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+hr {
+    margin-right: 30px;
+    max-width: 470px;
+}
+
+nav {
+    background-color: #000000;
+    opacity: 0.8;
+    position: sticky;
+    z-index: 200;
+    top: 0px;
+}
+
+nav ul {
+    margin: 0px auto;
+    list-style: none;
+    padding: 20px 30px 35px;
+    max-width: 980px;
+}
+
+nav ul li {
+    float: left;
+    margin-right: 20px;
+}
+
+nav ul a {
+    opacity: 0.5;
+}
+
+nav ul a:hover {
+    opacity: 1;
+}
+
+.sub-nav {
+    position: fixed;
+    z-index: 200;
+    top: 0px;
+    padding:44px 44px 11px;
+}
+
+.sub-nav li {
+    display: none;
+}
+.sub-nav:hover li {
+    display: block;
+}
+
+.nav-item {
+    position: relative;
+    background-color: black;
+    opacity: 0.8;
+    padding: 15px;
+    left: -193px;
+    margin-right: 0px;
+}
+
+.wrapper {
+    padding: 30px;
+}
+
+.container {
+    margin: 55px auto;
+    max-width: 980px;
+    padding: 10px 30px;
+}
+
+.left-list {
+    padding: 0px 20px;
+    width: 15%;
+    float: left;
+}
+
+.right-list {
+    padding: 0px 20px;
+    width: 15%;
+    float: left;
+}
+
+.logo {
+    position: absolute;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+}
+
+.logo img {
+    margin: 30vh auto;
+    display: block;
+}
+
+#videoBG {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 10;
+    object-fit: cover;
+}
+
+#TDlogo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 980px;
+    margin: 55 auto;
+    width:86vw;
+}
+
+.about {
+    width: 50%;
+}
+
+.aboutwebsite {
+    width: 50%;
+}
+
+.portrait {
+    max-width: 470px;
+    float: right;
+    padding: 20px;
+    max-height: 660px;
+}
+.tddescribe {
+    position: relative;
+    top: -55px;
+    text-align: center;
+    padding: 0px 66px;
+}
+
+.tdbg {
+    display: block;
+    position: relative;
+    width: 50vw;
+    z-index: -10;
+    object-fit: cover;
+    max-width: 980px;
+    margin: 0px auto;
+}
+
+.tdcontainer {
+    margin: 55px auto;
+    max-width: 980px;
+    position:relative;
+    top: -375;
+    padding-top: 175px;
+}
