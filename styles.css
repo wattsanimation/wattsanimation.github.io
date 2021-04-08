@@ -160,10 +160,13 @@ ul li ul li {
 }
 
 .portrait {
-  max-width: 470px;
+  max-width: 450px;
   float: right;
   padding: 20px;
-  max-height: 660px;
+  max-height: 680px;
+  width: 74vw;
+  height: 110vw;
+  position: relative;
 }
 .tddescribe {
   position: relative;
@@ -202,5 +205,5 @@ ul li ul li {
   position: relative;
 }
 .img-link {
-  
+
 }
