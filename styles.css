@@ -189,3 +189,18 @@ ul li ul li {
   top: -375;
   padding-top: 175px;
 }
+
+.showreel {
+  max-width: 980px;
+  margin: 55px auto;
+  position: relative;
+}
+
+.projects {
+  max-width: 980px;
+  margin: 55px auto;
+  position: relative;
+}
+.img-link {
+  
+}
