@@ -182,7 +182,7 @@ ul li ul li {
   z-index: -10;
   object-fit: cover;
   max-width: 980px;
-  margin: 0px auto;
+  margin: 1px auto;
 }
 
 .tdcontainer {
