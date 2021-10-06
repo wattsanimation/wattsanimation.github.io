@@ -134,8 +134,8 @@ ul li ul li {
 }
 
 .user-links {
-  margin: 20px auto;
-  width: 416px;
+  margin: 45px auto;
+  width: 410px;
 }
 
 .user-links img {
@@ -143,7 +143,7 @@ ul li ul li {
 }
 
 .user-links a {
-  padding: 0px 12px 0;
+  padding: 0px 13px 0;
 }
 
 .background {
