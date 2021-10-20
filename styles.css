@@ -95,6 +95,10 @@ ul li ul li {
   clear: both;
 }
 
+/* .nav-item {
+  
+} */
+
 .wrapper {
   padding: 30px;
 }
@@ -229,6 +233,14 @@ ul li ul li {
   top: -375;
   padding-top: 175px;
 }
+.tdtrailer {
+  text-align: center;
+}
+
+.tdgallery {
+  text-align: center;
+  padding-top: 70px;
+}
 
 .showreel {
   max-width: 980px;
@@ -259,6 +271,15 @@ ul li ul li {
   width: 4vh;
   padding: 1vh;
 }
+
+.qbpreview {
+  display: block;
+  position: relative;
+  width: 100vw;
+  max-width: 980px;
+  margin: auto;
+}
+
 /* .img-link {
 
 } */
