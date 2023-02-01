@@ -132,9 +132,26 @@ ul li ul li {
   left: 0;
   margin: 30vh auto;
 }
+.qblogo {
+  position: relative;
+  z-index: 10;
+  width: 600px;
+  height: 329px;
+  top: -80px;
+  left: 0;
+  margin: 20vh auto;
+}
 
 .logoname img {
   display: block;
+}
+.qbname img {
+  display: flex;
+  margin: 20vh 1vw;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 570px;
+  width: 86vw;
 }
 
 .user-links {
