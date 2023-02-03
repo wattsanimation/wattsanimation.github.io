@@ -322,7 +322,7 @@ ul li ul li {
 .qbcontainer {
   margin: 55px auto;
   /*max-width: 980px;*/
-  padding: 10px 30px;
+  padding: 20px 30px;
   z-index: 10;
   position: relative;
 }
@@ -334,7 +334,7 @@ ul li ul li {
   z-index: -10;
   object-fit: cover;
   max-width: 1165px;
-  margin: 1px auto;
+  margin: 20px auto;
 }
 
 /* .img-link {
